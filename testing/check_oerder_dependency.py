@@ -3,7 +3,7 @@
  @Time    : 2020/7/14 7:26
  @Author  : Summer
  @Email   : 2361157192@qq.com
- @File    : check_oerder_pendency.py
+ @File    : check_oerder_dependency.py
  
  '''
 '''
@@ -40,6 +40,7 @@ class CheckCalc():
     def setup(self):
         self.cal = Calculator()
 
+    # 加法
     @pytest.mark.first
     @pytest.mark.dependency()
     @pytest.mark.parametrize("a,b,result", adddatas, ids=addids)
@@ -47,6 +48,7 @@ class CheckCalc():
         print(f"\n计算数据：a={a},b={b},result={result}")
         assert self.cal.add(a, b) == result
 
+    #除法
     @pytest.mark.last
     @pytest.mark.dependency(depends=["test_mul"])
     @pytest.mark.parametrize("a,b,result", divdatas, ids=divids)
@@ -54,6 +56,7 @@ class CheckCalc():
         print(f"\n计算数据：a={a},b={b},result={result}")
         assert self.cal.div(a, b) == result
 
+    # 减法
     @pytest.mark.second
     @pytest.mark.dependency(depends=["test_add"])
     @pytest.mark.parametrize("a,b,result", subdatas, ids=subids)
@@ -61,6 +64,7 @@ class CheckCalc():
         print(f"\n计算数据：a={a},b={b},result={result}")
         assert self.cal.sub(a, b) == result
 
+    #乘法
     @pytest.mark.third
     @pytest.mark.dependency()
     @pytest.mark.parametrize("a,b,result", muldatas, ids=mulids)
