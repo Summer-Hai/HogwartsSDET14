@@ -49,3 +49,6 @@ class CheckCalc():
     def check_mul(self, a, b, result):
         print(f"\n计算数据：a={a},b={b},result={result}")
         assert self.cal.mul(a, b) == result
+
+if __name__ == '__main__':
+    pytest.main(['check_calc.py', '-v', '-s'])
