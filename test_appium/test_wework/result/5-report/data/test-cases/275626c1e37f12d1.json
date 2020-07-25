@@ -1,0 +1,70 @@
+{
+  "uid": "275626c1e37f12d1",
+  "name": "test_peopledel",
+  "fullName": "test_appium.test_wework.test_wework.TestWework#test_peopledel",
+  "historyId": "980d0aecbd33d15539893b9997127d2c",
+  "time": {
+    "start": 1595602751194,
+    "stop": 1595602771071,
+    "duration": 19877
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "story",
+      "value": "删除用户"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_appium.test_wework"
+    },
+    {
+      "name": "suite",
+      "value": "test_wework"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWework"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-NA3RT0N"
+    },
+    {
+      "name": "thread",
+      "value": "2072-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_appium.test_wework.test_wework"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "275626c1e37f12d1.json",
+  "parameterValues": []
+}

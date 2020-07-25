@@ -1,0 +1,29 @@
+{
+  "total": 2,
+  "items": [
+    {
+      "uid": "fd109eb3a18fafacb66da59049c2c07b",
+      "name": "添加用户",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 1,
+        "unknown": 0,
+        "total": 1
+      }
+    },
+    {
+      "uid": "1d1b234968119e46a0f47ecc0114f265",
+      "name": "删除用户",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 1,
+        "unknown": 0,
+        "total": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "test_addpeople",
+  "status": "passed",
+  "start": 1595602709994,
+  "stop": 1595602730476,
+  "uuid": "050c9987-7543-4f0b-9a64-0e1d78f6b349",
+  "historyId": "775025f9854ec8c6ace2c7805ca7c093",
+  "testCaseId": "08af44cc4ae770c937e4b284da8ceee9",
+  "fullName": "test_appium.test_wework.test_wework.TestWework#test_addpeople",
+  "labels": [
+    {
+      "name": "story",
+      "value": "添加用户"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_appium.test_wework"
+    },
+    {
+      "name": "suite",
+      "value": "test_wework"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWework"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-NA3RT0N"
+    },
+    {
+      "name": "thread",
+      "value": "2072-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_appium.test_wework.test_wework"
+    }
+  ]
+}

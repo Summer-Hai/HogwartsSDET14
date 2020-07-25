@@ -1,0 +1,17 @@
+{
+  "total": 1,
+  "items": [
+    {
+      "uid": "8c09187fca21d7a715a79a2cb3029fb6",
+      "name": "test_appium.test_wework",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 2,
+        "unknown": 0,
+        "total": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "uid": "b1a8273437954620fa374b796ffaacdd",
+  "name": "behaviors",
+  "children": [
+    {
+      "name": "添加用户",
+      "children": [
+        {
+          "name": "test_addpeople",
+          "uid": "a7e8a174ce0092eb",
+          "parentUid": "fd109eb3a18fafacb66da59049c2c07b",
+          "status": "passed",
+          "time": {
+            "start": 1595602709994,
+            "stop": 1595602730476,
+            "duration": 20482
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": []
+        }
+      ],
+      "uid": "fd109eb3a18fafacb66da59049c2c07b"
+    },
+    {
+      "name": "删除用户",
+      "children": [
+        {
+          "name": "test_peopledel",
+          "uid": "275626c1e37f12d1",
+          "parentUid": "1d1b234968119e46a0f47ecc0114f265",
+          "status": "passed",
+          "time": {
+            "start": 1595602751194,
+            "stop": 1595602771071,
+            "duration": 19877
+          },
+          "flaky": false,
+          "newFailed": false,
+          "parameters": []
+        }
+      ],
+      "uid": "1d1b234968119e46a0f47ecc0114f265"
+    }
+  ]
+}

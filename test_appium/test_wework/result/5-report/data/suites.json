@@ -1,0 +1,52 @@
+{
+  "uid": "98d3104e051c652961429bf95fa0b5d6",
+  "name": "suites",
+  "children": [
+    {
+      "name": "test_appium.test_wework",
+      "children": [
+        {
+          "name": "test_wework",
+          "children": [
+            {
+              "name": "TestWework",
+              "children": [
+                {
+                  "name": "test_addpeople",
+                  "uid": "a7e8a174ce0092eb",
+                  "parentUid": "45003155a8ba3477fb58d10c51db60c6",
+                  "status": "passed",
+                  "time": {
+                    "start": 1595602709994,
+                    "stop": 1595602730476,
+                    "duration": 20482
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                },
+                {
+                  "name": "test_peopledel",
+                  "uid": "275626c1e37f12d1",
+                  "parentUid": "45003155a8ba3477fb58d10c51db60c6",
+                  "status": "passed",
+                  "time": {
+                    "start": 1595602751194,
+                    "stop": 1595602771071,
+                    "duration": 19877
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "parameters": []
+                }
+              ],
+              "uid": "45003155a8ba3477fb58d10c51db60c6"
+            }
+          ],
+          "uid": "9d4b0f5e613adf20d0a0116c2c98486e"
+        }
+      ],
+      "uid": "8c09187fca21d7a715a79a2cb3029fb6"
+    }
+  ]
+}

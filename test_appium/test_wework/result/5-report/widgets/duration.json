@@ -1,0 +1,24 @@
+[
+  {
+    "uid": "275626c1e37f12d1",
+    "name": "test_peopledel",
+    "time": {
+      "start": 1595602751194,
+      "stop": 1595602771071,
+      "duration": 19877
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "a7e8a174ce0092eb",
+    "name": "test_addpeople",
+    "time": {
+      "start": 1595602709994,
+      "stop": 1595602730476,
+      "duration": 20482
+    },
+    "status": "passed",
+    "severity": "normal"
+  }
+]

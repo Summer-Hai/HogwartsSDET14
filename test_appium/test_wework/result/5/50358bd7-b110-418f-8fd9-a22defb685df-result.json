@@ -1,0 +1,48 @@
+{
+  "name": "test_peopledel",
+  "status": "passed",
+  "start": 1595602751194,
+  "stop": 1595602771071,
+  "uuid": "3c0de68f-4fc9-4f38-affd-5f7e2ea16047",
+  "historyId": "980d0aecbd33d15539893b9997127d2c",
+  "testCaseId": "0c8071bb16d1fe002b181a4e5993007d",
+  "fullName": "test_appium.test_wework.test_wework.TestWework#test_peopledel",
+  "labels": [
+    {
+      "name": "story",
+      "value": "删除用户"
+    },
+    {
+      "name": "parentSuite",
+      "value": "test_appium.test_wework"
+    },
+    {
+      "name": "suite",
+      "value": "test_wework"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestWework"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-NA3RT0N"
+    },
+    {
+      "name": "thread",
+      "value": "2072-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_appium.test_wework.test_wework"
+    }
+  ]
+}

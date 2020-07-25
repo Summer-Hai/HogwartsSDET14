@@ -1,0 +1,46 @@
+{
+  "uid": "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name": "timeline",
+  "children": [
+    {
+      "name": "DESKTOP-NA3RT0N",
+      "children": [
+        {
+          "name": "2072-MainThread",
+          "children": [
+            {
+              "name": "test_peopledel",
+              "uid": "275626c1e37f12d1",
+              "parentUid": "3d33846e243afe9e873f7cfe70c3c987",
+              "status": "passed",
+              "time": {
+                "start": 1595602751194,
+                "stop": 1595602771071,
+                "duration": 19877
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": []
+            },
+            {
+              "name": "test_addpeople",
+              "uid": "a7e8a174ce0092eb",
+              "parentUid": "3d33846e243afe9e873f7cfe70c3c987",
+              "status": "passed",
+              "time": {
+                "start": 1595602709994,
+                "stop": 1595602730476,
+                "duration": 20482
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": []
+            }
+          ],
+          "uid": "3d33846e243afe9e873f7cfe70c3c987"
+        }
+      ],
+      "uid": "db91fc15558c6822f5360f584f5326f6"
+    }
+  ]
+}
