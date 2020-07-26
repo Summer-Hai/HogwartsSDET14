@@ -1,0 +1,98 @@
+{
+  "name": "test_add_user",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "点击添加成员",
+      "status": "passed",
+      "start": 1595690903785,
+      "stop": 1595690908791
+    },
+    {
+      "name": "点击手动输入添加",
+      "status": "passed",
+      "start": 1595690908792,
+      "stop": 1595690911326
+    },
+    {
+      "name": "点击姓名输入框进行输入添加",
+      "status": "passed",
+      "start": 1595690911327,
+      "stop": 1595690914703
+    },
+    {
+      "name": "点击手机号码输入框点击输入13000008888",
+      "status": "passed",
+      "start": 1595690914703,
+      "stop": 1595690915854
+    },
+    {
+      "name": "点击设置部门",
+      "status": "passed",
+      "start": 1595690915854,
+      "stop": 1595690916701
+    },
+    {
+      "name": "点击点击确定功能",
+      "status": "passed",
+      "start": 1595690916701,
+      "stop": 1595690917991
+    },
+    {
+      "name": "点击弹窗的确定功能",
+      "status": "passed",
+      "start": 1595690917991,
+      "stop": 1595690918825
+    },
+    {
+      "name": "点击返回用户列表",
+      "status": "passed",
+      "start": 1595690923826,
+      "stop": 1595690923918
+    }
+  ],
+  "start": 1595690892862,
+  "stop": 1595690927904,
+  "uuid": "b4e2e092-d06a-4add-9d0a-1cc612fa30f3",
+  "historyId": "f6b797644d315d5411963359584af427",
+  "testCaseId": "27be7644abb78ccac391037e5dc1c5b4",
+  "fullName": "app.test_wework.test_run.TestPersonnel#test_add_user",
+  "labels": [
+    {
+      "name": "story",
+      "value": "添加用户"
+    },
+    {
+      "name": "parentSuite",
+      "value": "app.test_wework"
+    },
+    {
+      "name": "suite",
+      "value": "test_run"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPersonnel"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-NA3RT0N"
+    },
+    {
+      "name": "thread",
+      "value": "2684-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "app.test_wework.test_run"
+    }
+  ]
+}

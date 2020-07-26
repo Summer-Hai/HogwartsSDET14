@@ -82,6 +82,7 @@ class TestWework:
         # 点击返回用户列表
         with allure.step("点击返回用户列表"):
             self.driver.find_element_by_id("com.tencent.wework:id/h9e").click()
+
         # 添加成功
         with allure.step("添加成功"):
             print("添加成功")

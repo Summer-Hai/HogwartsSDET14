@@ -1,0 +1,80 @@
+{
+  "name": "test_del_user",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "点击summer用户",
+      "status": "passed",
+      "start": 1595690958977,
+      "stop": 1595690959507
+    },
+    {
+      "name": "点击更多功能",
+      "status": "passed",
+      "start": 1595690959507,
+      "stop": 1595690968455
+    },
+    {
+      "name": "点击用户编辑功能",
+      "status": "passed",
+      "start": 1595690971455,
+      "stop": 1595690971624
+    },
+    {
+      "name": "点击删除用户功能",
+      "status": "passed",
+      "start": 1595690971624,
+      "stop": 1595690974378
+    },
+    {
+      "name": "点击弹窗确定功能",
+      "status": "passed",
+      "start": 1595690974378,
+      "stop": 1595690975415
+    }
+  ],
+  "start": 1595690948132,
+  "stop": 1595690988252,
+  "uuid": "8984feb3-221f-480f-a473-f84ac645fb8e",
+  "historyId": "057fe1dee90f836cd78c3a0a30e4cc0b",
+  "testCaseId": "e815d9887105ec70125a53459727fd85",
+  "fullName": "app.test_wework.test_run.TestPersonnel#test_del_user",
+  "labels": [
+    {
+      "name": "story",
+      "value": "删除用户"
+    },
+    {
+      "name": "parentSuite",
+      "value": "app.test_wework"
+    },
+    {
+      "name": "suite",
+      "value": "test_run"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestPersonnel"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-NA3RT0N"
+    },
+    {
+      "name": "thread",
+      "value": "2684-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "app.test_wework.test_run"
+    }
+  ]
+}
