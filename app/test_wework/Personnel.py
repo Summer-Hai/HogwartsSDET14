@@ -51,11 +51,13 @@ class Personnel(Base):
         element = self.driver.find_element_by_xpath("//*[@text='summer']")
 
         if element != None:
-            print("添加用户成功")
-            return True
+            with allure.step("添加用户成功"):
+                print("添加用户成功")
+                return True
         else:
-            print("添加用户失败")
-            return False
+            with allure.step("添加用户失败"):
+                print("添加用户失败")
+                return False
 
     def del_user(self, username):
 
@@ -84,9 +86,11 @@ class Personnel(Base):
             self.driver.find_element_by_xpath("//*[@text='summer']")
 
         except:
-            print("删除用户成功")
-            return True
+            with allure.step("删除成功"):
+                print("删除用户成功")
+                return True
 
         else:
-            print("删除用户失败")
-            return False
+            with allure.step("删除成功"):
+                print("删除用户失败")
+                return False
