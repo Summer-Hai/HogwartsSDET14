@@ -7,6 +7,7 @@
 
  主页面
  '''
+import allure
 from appium.webdriver.common.mobileby import MobileBy
 
 from app.test_wework01.page.basepage import BasePage
@@ -24,7 +25,8 @@ class MainPage(BasePage):
         进入到通讯录
         """
         # self.driver.find_element(MobileBy.XPATH, "//android.widget.TextView[@text='通讯录']").click()
-        self.find_and_click(self.contactlist)
+        with allure.step("点击通讯录"):
+            self.find_and_click(self.contactlist)
 
         return ContactListPage(self.driver)
 

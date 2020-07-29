@@ -8,6 +8,7 @@
  手动添加成员页
  '''
 # from app.test_wework01.page.contactaddpage import ContactAddPage
+import allure
 from appium.webdriver.common.mobileby import MobileBy
 from selenium.webdriver.support.wait import WebDriverWait
 
@@ -29,13 +30,14 @@ class AddMemberPage(BasePage):
         """
         # self.driver.find_element(MobileBy.XPATH,
         #                          "//android.widget.TextView[@text='手动输入添加']").click()
-
-        self.find_and_click(self.add_menual_element)
+        with allure.step("点击手动输入添加功能，进入用户信息填写页面"):
+            self.find_and_click(self.add_menual_element)
         from app.test_wework01.page.contactaddpage import ContactAddPage
         return ContactAddPage(self.driver)
 
     def get_toast(self):
-        element = self.webdriver_wait(self.toast_element)
+        with allure.step("获取Toast的文本"):
+            element = self.webdriver_wait(self.toast_element)
 
         result = element.text
         # text = "成功"

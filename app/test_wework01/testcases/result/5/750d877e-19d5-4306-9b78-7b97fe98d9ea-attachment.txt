@@ -1,0 +1,10 @@
+[32mINFO    [0m root:basepage.py:35 find_and_click:('xpath', "//android.widget.TextView[@text='通讯录']")
+[32mINFO    [0m root:basepage.py:35 find_and_click:('id', 'com.tencent.wework:id/h9z')
+[32mINFO    [0m root:basepage.py:39 find_and_sendkeys:('id', 'com.tencent.wework:id/fxc'),summer01
+[32mINFO    [0m root:basepage.py:31 finds:('xpath', "//*[@text='summer01']")
+[32mINFO    [0m root:basepage.py:35 find_and_click:('id', 'com.tencent.wework:id/h9p')
+[32mINFO    [0m root:basepage.py:35 find_and_click:('id', 'com.tencent.wework:id/b2c')
+[32mINFO    [0m root:basepage.py:35 find_and_click:('id', 'com.tencent.wework:id/e3f')
+[32mINFO    [0m root:basepage.py:35 find_and_click:('id', 'com.tencent.wework:id/bci')
+[32mINFO    [0m root:basepage.py:31 finds:('xpath', "//*[@text='summer01']")
+[32mINFO    [0m root:basepage.py:57 back:1

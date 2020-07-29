@@ -1,0 +1,45 @@
+{
+  "uuid": "7afe253a-aecc-4dcc-a1c4-c5cd384fb8bd",
+  "children": [
+    "0359f41f-a26f-402c-829d-ec4aa93e1129",
+    "1fe11d6c-dba2-47e8-b3f4-84e70037448a",
+    "e29e5c46-4fad-487a-8cbf-51c172d1cacc",
+    "88c4760c-b7c8-46d1-9693-01d48ce4e53f",
+    "63ed3f91-5776-41e9-bada-5675850706f9",
+    "d203fa32-9605-4f3d-b7e7-8a037295f261",
+    "6fb5b6eb-2f36-4d95-b139-f260e5c0956c",
+    "50bc6a18-75d8-4b94-ba9d-b904815f8a1e"
+  ],
+  "befores": [
+    {
+      "name": "_Class__pytest_setup_class",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "调用start方法进行初始化",
+          "status": "passed",
+          "start": 1596032029480,
+          "stop": 1596032066450
+        },
+        {
+          "name": "进入首页",
+          "status": "passed",
+          "start": 1596032066450,
+          "stop": 1596032066450
+        }
+      ],
+      "start": 1596032029480,
+      "stop": 1596032066451
+    }
+  ],
+  "afters": [
+    {
+      "name": "_Class__pytest_setup_class::0",
+      "status": "passed",
+      "start": 1596032278378,
+      "stop": 1596032278378
+    }
+  ],
+  "start": 1596032029480,
+  "stop": 1596032278378
+}

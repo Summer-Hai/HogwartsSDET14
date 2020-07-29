@@ -1,0 +1,10 @@
+[32mINFO    [0m root:basepage.py:35 find_and_click:('xpath', "//android.widget.TextView[@text='通讯录']")
+[32mINFO    [0m root:basepage.py:43 find_by_scroll:添加成员
+[32mINFO    [0m root:basepage.py:35 find_and_click:('xpath', "//android.widget.TextView[@text='手动输入添加']")
+[32mINFO    [0m root:basepage.py:39 find_and_sendkeys:('xpath', "//*[contains(@text,'姓名')]/../android.widget.EditText"),summer04
+[32mINFO    [0m root:basepage.py:35 find_and_click:('xpath', "//*[contains(@text,'性别')]/..//*[@text='男']")
+[32mINFO    [0m root:basepage.py:35 find_and_click:('xpath', "//*[@text='男']")
+[32mINFO    [0m root:basepage.py:39 find_and_sendkeys:('xpath', "//*[contains(@text,'手机号')]"),13000008884
+[32mINFO    [0m root:basepage.py:35 find_and_click:('id', 'com.tencent.wework:id/h9w')
+[32mINFO    [0m root:basepage.py:51 webdriver_wait:('xpath', "//*[@class='android.widget.Toast']"),10
+[32mINFO    [0m root:basepage.py:57 back:1

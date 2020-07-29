@@ -1,0 +1,133 @@
+{
+  "name": "test_delcontact[summer04]",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "调用添加方法",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "点击通讯录",
+          "status": "passed",
+          "start": 1596032250433,
+          "stop": 1596032253970
+        },
+        {
+          "name": "点击搜索，进入搜索页面",
+          "status": "passed",
+          "start": 1596032253970,
+          "stop": 1596032254544
+        },
+        {
+          "name": "点击搜索框输入数据summer04",
+          "status": "passed",
+          "start": 1596032254544,
+          "stop": 1596032256022
+        },
+        {
+          "name": "查找所有关于summer04的用户",
+          "status": "passed",
+          "start": 1596032259022,
+          "stop": 1596032259103
+        },
+        {
+          "name": "判断summer04相关的用户数量是否大于2",
+          "status": "passed",
+          "start": 1596032259103,
+          "stop": 1596032259103
+        },
+        {
+          "name": "点击顶置的用户（要删除的用户），进入用户详情页",
+          "status": "passed",
+          "start": 1596032259105,
+          "stop": 1596032259728
+        },
+        {
+          "name": "点击更多设置，进入用户编辑页面",
+          "status": "passed",
+          "start": 1596032259728,
+          "stop": 1596032266242
+        },
+        {
+          "name": "点击编辑，进入用户信息编辑页面",
+          "status": "passed",
+          "start": 1596032266242,
+          "stop": 1596032268585
+        },
+        {
+          "name": "点击删除成员功能，删除用户",
+          "status": "passed",
+          "start": 1596032268585,
+          "stop": 1596032271535
+        },
+        {
+          "name": "点击确定功能，确定删除用户",
+          "status": "passed",
+          "start": 1596032271535,
+          "stop": 1596032272628
+        },
+        {
+          "name": "删除检验",
+          "status": "passed",
+          "start": 1596032275630,
+          "stop": 1596032277726
+        }
+      ],
+      "start": 1596032250433,
+      "stop": 1596032277726
+    }
+  ],
+  "attachments": [
+    {
+      "name": "log",
+      "source": "01f5b634-75a6-4f10-b2d3-0437b7ba694a-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "name",
+      "value": "'summer04'"
+    }
+  ],
+  "start": 1596032250433,
+  "stop": 1596032278373,
+  "uuid": "50bc6a18-75d8-4b94-ba9d-b904815f8a1e",
+  "historyId": "eb5d7cbed0281ef832fa36d1a78e706e",
+  "testCaseId": "af86a1443588099abc375036be956dd7",
+  "fullName": "test_contact.TestContact#test_delcontact",
+  "labels": [
+    {
+      "name": "story",
+      "value": "删除成员"
+    },
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-NA3RT0N"
+    },
+    {
+      "name": "thread",
+      "value": "3484-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

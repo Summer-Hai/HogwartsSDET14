@@ -6,6 +6,7 @@
  @File    : contactaddpage.py
  
  '''
+import allure
 from appium.webdriver.common.mobileby import MobileBy
 
 from app.test_wework01.page.basepage import BasePage
@@ -27,7 +28,8 @@ class ContactAddPage(BasePage):
         # 设置姓名
         # self.driver.find_element(MobileBy.XPATH,
         #                          "//*[contains(@text,'姓名')]/../android.widget.EditText").send_keys(name)
-        self.find_and_sendkeys(self.name_element, name)
+        with allure.step(f"设置用户姓名：{name}"):
+            self.find_and_sendkeys(self.name_element, name)
 
         return self
 
@@ -38,12 +40,13 @@ class ContactAddPage(BasePage):
         #     self.driver.find_element(MobileBy.XPATH, "//*[@text='男']").click()
         # else:
         #     self.driver.find_element(MobileBy.XPATH, "//*[@text='女']").click()
-        self.find_and_click(self.gender_element)
+        with allure.step(f"设置用户性别：{gender}"):
+            self.find_and_click(self.gender_element)
 
-        if gender == '男':
-            self.find_and_click(self.male_ele)
-        else:
-            self.find_and_click(self.female_ele)
+            if gender == '男':
+                self.find_and_click(self.male_ele)
+            else:
+                self.find_and_click(self.female_ele)
 
         return self
 
@@ -51,13 +54,15 @@ class ContactAddPage(BasePage):
 
         # 设置手机号
         # self.driver.find_element(MobileBy.XPATH, "//*[contains(@text,'手机号')]").send_keys(phonenum)
-        self.find_and_sendkeys(self.phonenum_element, phonenum)
+        with allure.step(f"设置用户手机号码：{phonenum}"):
+            self.find_and_sendkeys(self.phonenum_element, phonenum)
         return self
 
     def click_save(self):
 
         # 点击保存
         # self.driver.find_element(MobileBy.ID, "com.tencent.wework:id/h9w").click()
-        self.find_and_click(self.save_element)
+        with allure.step("保存用户数据"):
+            self.find_and_click(self.save_element)
         from app.test_wework01.page.addmemberPage import AddMemberPage
         return AddMemberPage(self.driver)

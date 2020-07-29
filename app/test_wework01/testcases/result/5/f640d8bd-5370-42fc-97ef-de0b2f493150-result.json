@@ -1,0 +1,123 @@
+{
+  "name": "test_addcontact[summer03-男-13000008883]",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "调用添加方法",
+      "status": "passed",
+      "steps": [
+        {
+          "name": "点击通讯录",
+          "status": "passed",
+          "start": 1596032116847,
+          "stop": 1596032123150
+        },
+        {
+          "name": "点击添加成员",
+          "status": "passed",
+          "start": 1596032123150,
+          "stop": 1596032125421
+        },
+        {
+          "name": "点击手动输入添加功能，进入用户信息填写页面",
+          "status": "passed",
+          "start": 1596032125421,
+          "stop": 1596032127137
+        },
+        {
+          "name": "设置用户姓名：summer03",
+          "status": "passed",
+          "start": 1596032127138,
+          "stop": 1596032130105
+        },
+        {
+          "name": "设置用户性别：男",
+          "status": "passed",
+          "start": 1596032130105,
+          "stop": 1596032132683
+        },
+        {
+          "name": "设置用户手机号码：13000008883",
+          "status": "passed",
+          "start": 1596032132683,
+          "stop": 1596032133508
+        },
+        {
+          "name": "保存用户数据",
+          "status": "passed",
+          "start": 1596032133508,
+          "stop": 1596032134056
+        }
+      ],
+      "start": 1596032116847,
+      "stop": 1596032134056
+    },
+    {
+      "name": "获取Toast的文本",
+      "status": "passed",
+      "start": 1596032134056,
+      "stop": 1596032135381
+    }
+  ],
+  "attachments": [
+    {
+      "name": "log",
+      "source": "f1cd31bf-9949-4661-b424-de3492a8a8cf-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "name",
+      "value": "'summer03'"
+    },
+    {
+      "name": "gender",
+      "value": "'男'"
+    },
+    {
+      "name": "phonenum",
+      "value": "'13000008883'"
+    }
+  ],
+  "start": 1596032116847,
+  "stop": 1596032135668,
+  "uuid": "e29e5c46-4fad-487a-8cbf-51c172d1cacc",
+  "historyId": "fc3b767758d90a003dd7e0689b97a0f5",
+  "testCaseId": "1ff80c2a8b24112fc75d10b7dcd26f6f",
+  "fullName": "test_contact.TestContact#test_addcontact",
+  "labels": [
+    {
+      "name": "story",
+      "value": "添加成员"
+    },
+    {
+      "name": "suite",
+      "value": "test_contact"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestContact"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-NA3RT0N"
+    },
+    {
+      "name": "thread",
+      "value": "3484-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_contact"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "uuid": "dac3bdfa-23d3-4c14-a148-d93575ee3a11",
+  "befores": [
+    {
+      "name": "phonenum",
+      "status": "passed",
+      "start": 1596032066452,
+      "stop": 1596032066452
+    }
+  ],
+  "start": 1596032066452,
+  "stop": 1596032096152
+}
