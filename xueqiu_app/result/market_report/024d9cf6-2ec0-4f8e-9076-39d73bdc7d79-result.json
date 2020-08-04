@@ -1,0 +1,117 @@
+{
+  "name": "test_search[阿里巴巴]",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "调用start方法进行初始化",
+      "status": "passed",
+      "start": 1596549388988,
+      "stop": 1596549410297
+    },
+    {
+      "name": "进入首页",
+      "status": "passed",
+      "start": 1596549410297,
+      "stop": 1596549410298
+    },
+    {
+      "name": "进入行情",
+      "status": "passed",
+      "attachments": [
+        {
+          "source": "74a7e66c-063b-44bd-bce9-010b7861ffcd-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1596549410298,
+      "stop": 1596549431072
+    },
+    {
+      "name": "点击搜索",
+      "status": "passed",
+      "start": 1596549431073,
+      "stop": 1596549453832
+    },
+    {
+      "name": "进入搜索关注",
+      "status": "passed",
+      "start": 1596549458842,
+      "stop": 1596549458842
+    },
+    {
+      "name": "校验已关注",
+      "status": "passed",
+      "start": 1596549463930,
+      "stop": 1596549463930
+    },
+    {
+      "name": "搜索关注成功",
+      "status": "passed",
+      "start": 1596549464975,
+      "stop": 1596549469975
+    },
+    {
+      "name": "调用stop方法进行关闭app",
+      "status": "passed",
+      "start": 1596549470446,
+      "stop": 1596549473281
+    }
+  ],
+  "attachments": [
+    {
+      "name": "log",
+      "source": "d4d43920-093e-4db5-bb72-e9ee604d3034-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "stock_name",
+      "value": "'阿里巴巴'"
+    }
+  ],
+  "start": 1596549388987,
+  "stop": 1596549470440,
+  "uuid": "e3312957-4c1a-4c55-bab9-46272cb4e5bf",
+  "historyId": "afdfe6a55bcc01c03151a1a2e2347c95",
+  "testCaseId": "e94a84514eb6de8036cf187abb55941a",
+  "fullName": "xueqiu_app.testcases.test_market.TestMarket#test_search",
+  "labels": [
+    {
+      "name": "story",
+      "value": "搜索和关注"
+    },
+    {
+      "name": "parentSuite",
+      "value": "xueqiu_app.testcases"
+    },
+    {
+      "name": "suite",
+      "value": "test_market"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestMarket"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-NA3RT0N"
+    },
+    {
+      "name": "thread",
+      "value": "2604-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "xueqiu_app.testcases.test_market"
+    }
+  ]
+}

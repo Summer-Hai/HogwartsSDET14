@@ -1,0 +1,20 @@
+[32mINFO    [0m root:base_page.py:33 获取driver， driver = <appium.webdriver.webdriver.WebDriver (session="0c09d672-0c22-4609-ad73-6f6b2d8f9afb")>
+[32mINFO    [0m root:base_page.py:115 run steps： path = ../datas/step/main.yml, name = goto_market
+[32mINFO    [0m root:handle_black.py:25 runfind
+ args: ('xpath', "//*[@resource-id='com.xueqiu.android:id/post_status']")
+{}
+[32mINFO    [0m root:base_page.py:96 run find： by = xpath, locator = //*[@resource-id='com.xueqiu.android:id/post_status']
+[32mINFO    [0m root:base_page.py:111 run finds： second = 3
+[32mINFO    [0m root:handle_black.py:25 runfind
+ args: ('xpath', "//*[@resource-id='android:id/tabs']//*[@text='行情']")
+{}
+[32mINFO    [0m root:base_page.py:96 run find： by = xpath, locator = //*[@resource-id='android:id/tabs']//*[@text='行情']
+[1m[31mERROR   [0m root:handle_black.py:35 element not found, handle black list
+[32mINFO    [0m root:base_page.py:111 run finds： second = 1
+[32mINFO    [0m root:base_page.py:104 run finds： by = ('xpath', "//*[@resource-id='com.xueqiu.android:id/iv_close']"), locator = None
+[32mINFO    [0m root:handle_black.py:25 runfind
+ args: ('xpath', "//*[@resource-id='android:id/tabs']//*[@text='行情']")
+{}
+[32mINFO    [0m root:base_page.py:96 run find： by = xpath, locator = //*[@resource-id='android:id/tabs']//*[@text='行情']
+[32mINFO    [0m root:base_page.py:111 run finds： second = 3
+[32mINFO    [0m root:base_page.py:33 获取driver， driver = <appium.webdriver.webdriver.WebDriver (session="0c09d672-0c22-4609-ad73-6f6b2d8f9afb")>

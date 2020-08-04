@@ -1,0 +1,87 @@
+{
+  "name": "test_market",
+  "status": "passed",
+  "steps": [
+    {
+      "name": "调用start方法进行初始化",
+      "status": "passed",
+      "start": 1596549344029,
+      "stop": 1596549371775
+    },
+    {
+      "name": "进入首页",
+      "status": "passed",
+      "start": 1596549371775,
+      "stop": 1596549371776
+    },
+    {
+      "name": "进入行情",
+      "status": "passed",
+      "attachments": [
+        {
+          "source": "9b5a7a9b-1988-46ca-b13d-5ebd26ef1852-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "start": 1596549371776,
+      "stop": 1596549387301
+    },
+    {
+      "name": "调用stop方法进行关闭app",
+      "status": "passed",
+      "start": 1596549387302,
+      "stop": 1596549388978
+    }
+  ],
+  "attachments": [
+    {
+      "name": "log",
+      "source": "577284a3-4243-4608-b0ee-695dcf89c35e-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1596549344029,
+  "stop": 1596549387301,
+  "uuid": "8f051ed7-f067-4521-a85b-8559293c3e97",
+  "historyId": "0ff1c3a3b35eacdebb70282d2f2b8adc",
+  "testCaseId": "7a889e333be330472343f641e1b87eb6",
+  "fullName": "xueqiu_app.testcases.test_market.TestMarket#test_market",
+  "labels": [
+    {
+      "name": "story",
+      "value": "搜索功能"
+    },
+    {
+      "name": "parentSuite",
+      "value": "xueqiu_app.testcases"
+    },
+    {
+      "name": "suite",
+      "value": "test_market"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestMarket"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-NA3RT0N"
+    },
+    {
+      "name": "thread",
+      "value": "2604-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "xueqiu_app.testcases.test_market"
+    }
+  ]
+}
