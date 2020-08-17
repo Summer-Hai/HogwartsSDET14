@@ -1,0 +1,61 @@
+# 用户测试用例
+create_user:
+  "method": "post"
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/create?access_token=${token}"
+  "json":
+    "userid": ${userid}
+    "name": ${name}
+    "mobile": ${mobile}
+    "department":
+      - ${department}
+get_user:
+  "method": "get"
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token=${token}&userid=${userid}"
+update_user:
+  "method": "post"
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/update?access_token=${token}"
+  "json":
+    "userid": ${userid}
+    "name": ${name}
+    "mobile": ${mobile}
+deleted_user:
+  "method": "post"
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/user/delete?access_token=${token}&userid=${userid}"
+
+# 标签测试用例
+create_tag:
+  "method": "post"
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/create?access_token=${token}"
+  "json":
+    "tagname": ${tagname}
+    "tagid": ${tagid}
+get_tag:
+  "method": "get"
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/get?access_token=${token}&tagid=${tagid}"
+update_tag:
+  "method": "post"
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/update?access_token=${token}"
+  "json":
+    "tagid": ${tagid}
+    "tagname": ${tagname}
+deleted_tag:
+  "method": "post"
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/delete?access_token=${token}&tagid=${tagid}"
+  "json":
+    "tagid": ${tagid}
+    "tagname": ${tagname}
+add_tag_member:
+  "method": "post"
+  "url": "https://qyapi.weixin.qq.com/cgi-bin/tag/addtagusers?access_token=${token}"
+  "tagid": ${tagid}
+  "userlist":
+    - {'userid': 'summer01', 'name': 'summer01'}
+    - {'userid': 'summer', 'name': 'summer'}
+  "partylist":
+    - ${department}
+
+
+
+
+
+
